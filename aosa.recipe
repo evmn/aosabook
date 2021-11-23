@@ -1,0 +1,97 @@
+from calibre.web.feeds.recipes import BasicNewsRecipe
+import re
+base_url = 'http://127.0.0.1:8000'
+def get_feed(entry):
+        chap = entry.find('td').getText()
+        blog = entry.find('a')
+        if chap:
+                chap = re.search(r'\d+', chap).group()
+                title = "Chap " + chap + ": " + blog.getText()
+        else:
+                title = blog.getText()
+        link = "http://127.0.0.1:8000/en/" + blog['href']
+        feed = {'title': title, 'url': link}
+        return feed
+
+class aosa_book(BasicNewsRecipe):
+
+        title = 'The Architecture of Open Source Applications'
+        description = u"Building architecture and software architecture have a lot in common, but there is one crucial difference. While architects study thousands of buildings in their training and during their careers, most software developers only ever get to know a handful of large programs well… As a result, they repeat one another's mistakes rather than building on one another's successes… This book is our attempt to change that. "
+        cover_url = 'http://127.0.0.1:8000/images/cover1.jpg'
+
+        remove_tags = [dict(name=['footer']),
+                        dict(name='a', attrs={'class', 'pull-right'})]
+#                        dict(name='div', attrs={'class', 'hero-unit'}),
+#                        dict(name='div', attrs={'class', 'row-fluid'})]
+        __author__ = 'evmn'
+        language = 'en'
+        encoding = 'utf-8'
+        timefmt = ''
+
+        publication_type = 'blog'
+#        resolve_internal_links = True
+        remove_attributes = ['href']
+        no_stylesheets = True
+        remove_javascript = True
+#        auto_cleanup = True
+        delay = 1
+        simultaneous_downloads = 5
+        oldest_article = 999
+        max_articles_per_feed = 999
+        extra_css = '''
+                h1 { font-size:large; text-align:center; }
+                h2 { font-size:medium; text-align:left; }
+                h3 { font-size:small; text-align:left; }
+                blockquote {
+                        font-size: 90%; font-style: italic;
+                        border-left: 10px solid #ccc;
+                        display: block;
+                        margin-top: 1em;
+                        margin-bottom: 1em;
+                        margin-left: 40px;
+                        margin-right: 40px;
+                }
+                blockquote p {
+                        margin-right: 2em;
+                }
+                .hero-unit {text-align: right;}
+                .author {font-weight: normal; text-align: right;}
+                '''
+
+        def parse_index(self):
+
+                soup = self.index_to_soup(base_url)
+                archives = soup.findAll('table') # table-condensed
+                feeds = []
+                vol1_feeds = []
+                vol2_feeds = []
+                posa_feeds = []
+                l500_feeds = []
+
+
+                for entry in archives[0].findAll('tr'):
+                        feed = get_feed(entry)
+                        print(feed)
+                        l500_feeds.append(feed)
+
+                for entry in archives[1].findAll('tr'):
+                        feed = get_feed(entry)
+                        print(feed)
+                        posa_feeds.append(feed)
+
+                for entry in archives[2].findAll('tr'):
+                        feed = get_feed(entry)
+                        print(feed)
+                        vol2_feeds.append(feed)
+
+                for entry in archives[3].findAll('tr'):
+                        feed = get_feed(entry)
+                        print(feed)
+                        vol1_feeds.append(feed)
+
+                feeds.append(("Elegance, Evolution, and a Few Fearless Hacks", vol1_feeds))
+                feeds.append(("Structure, Scale and a Few More Fearless Hacks", vol2_feeds))
+                feeds.append(("The Performance of Open Source Applications", posa_feeds))
+                feeds.append(("500 Lines or Less", l500_feeds))
+
+                return feeds
