@@ -1,0 +1,704 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta charset='utf8'/>
+    <title>Volume 2 - The Architecture of Open Source Applications: The Blog</title>
+    <link href="http://fonts.googleapis.com/css?family=Arimo:400,700|Inika" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../theme/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../theme/pastie.css" />
+    <link href="../feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="The Architecture of Open Source Applications: The Blog Atom Feed" />
+    
+    
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="span8">
+    <h1>Volume 2</h1>
+    <table>
+</p>
+<p>
+<tbody>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td valign="top">
+</td>
+</p>
+<p>
+<td valign="top">
+[Introduction][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Amy Brown][] and [Greg Wilson][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+1.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Scalable Web Architecture and Distributed Systems][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Kate Matsudaira][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+2.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Firefox Release Engineering][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Chris AtLee][],
+
+</p>
+[Lukas Blakk][],
+
+[John O'Duinn][], and
+
+<p>
+[Armen Zambrano Gasparnian][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+3.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[FreeRTOS][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Christopher Svec][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+4.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[GDB][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Stan Shebs][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+5.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[The Glasgow Haskell Compiler][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Simon Marlow][] and
+
+</p>
+<p>
+[Simon Peyton-Jones][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+6.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Git][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Susan Potter][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+7.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[GPSD][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Eric Raymond][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+8.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[The Dynamic Language Runtime and the Iron Languages][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Jeff Hardy][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+9.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[ITK][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Luis Ibanez][] and
+
+</p>
+<p>
+[Brad King][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+10.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[GNU Mailman][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Barry Warsaw][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+11.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[matplotlib][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[John Hunter][] and
+
+</p>
+<p>
+[Michael Droettboom][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+12.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[MediaWiki][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Sumana Harihareswara][] and
+
+</p>
+<p>
+[Guillaume Paumier][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+13.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Moodle][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Tim Hunt][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+14.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[nginx][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Andrey Alexeev][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+15.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Open MPI][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Jeff Squyres][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+16.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[OSCAR][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Jennifer Ruttan][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+17.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Processing.js][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Mike Kamermans][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+18.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Puppet][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Luke Kanies][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+19.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[PyPy][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Benjamin Peterson][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+20.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[SQLAlchemy][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Michael Bayer][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+21.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Twisted][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Jessica McKellar][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+22.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Yesod][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Michael Snoyman][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+23.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Yocto][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Elizabeth Flanagan][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td align="right" valign="top">
+24.
+
+</td>
+</p>
+<p>
+<td valign="top">
+[ZeroMQ][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+[Martin Sústrik][]
+
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+</p>
+<p>
+<td valign="top">
+</td>
+</p>
+<p>
+<td valign="top">
+[Bibliography][]
+
+</td>
+</p>
+<p>
+<td valign="top">
+</td>
+</p>
+<p>
+</tr>
+</p>
+<p>
+</tbody>
+</p>
+<p>
+</table>
+
+</p>
+        </div>
+        <div class="span3 offset1">
+          <div class="well">
+            <ul class="nav nav-list">
+              <li class="nav-header">Blog</li>
+              <li ><a href="http://aosabook.org/blog">Index</a></li>
+              <li ><a href="http://aosabook.org/blog/tags/">Tags</a></li>
+              <li ><a href="http://aosabook.org/blog/archives/">Archive</a></li>
+              <li class="nav-header">Pages</li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="volume-1.html">Volume 1</a></li>
+              <li class="active"><a href="volume-2.html">Volume 2</a></li>
+            </ul>
+          </div><!-- /#menu --> 
+        </div>
+      </div>
+      
+      <hr />
+      
+      <div class="row">
+        <div class="span12">
+          <div id="about">
+            <p>Content &copy; The AOSA Editors.<br/>Proudly powered by <a href="http://twitter.github.com/bootstrap/">bootstrap</a>, <a href="http://docs.notmyidea.org/alexis/pelican/">pelican</a>, <a href="http://python.org">python</a> and <a href="http://www.julo.ch/about/">Alex</a>!</p>
+          </div><!-- /#about -->
+        </div><!-- /#contentinfo -->
+      </div>
+    </div>
+    
+    
+  </body>
+</html>

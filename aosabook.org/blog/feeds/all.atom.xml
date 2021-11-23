@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Architecture of Open Source Applications: The Blog</title><link href="http://aosabook.org/blog/" rel="alternate"></link><link href="http://aosabook.org/blog/feeds/all.atom.xml" rel="self"></link><id>http://aosabook.org/blog/</id><updated>2016-07-12T11:00:00+02:00</updated><entry><title>500 Lines or Less is Available Now</title><link href="http://aosabook.org/blog/2016/07/500-lines-or-less-is-available-now/" rel="alternate"></link><updated>2016-07-12T11:00:00+02:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2016-07-12:blog/2016/07/500-lines-or-less-is-available-now/</id><summary type="html">&lt;p&gt;We're happy to announce that "500 Lines or Less" is now generally available!
+You can read the web version for free on &lt;a href="http://aosabook.org"&gt;aosabook.org&lt;/a&gt;,
+while the PDF and paperback versions are &lt;a href="http://aosabook.org/en/buy.html#fh"&gt;available for
+purchase&lt;/a&gt; from Lulu. Within a few weeks,
+the paperback will also be available on Amazon. All proceeds from sales will go
+to Amnesty International.&lt;/p&gt;
+&lt;p&gt;You can read more about the release in our &lt;a href="http://aosabook.org/blog/2016/07/500-lines-or-less-release-on-july-12th-2016/"&gt;previous post&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Enjoy! We'll see you again in volume 5.&lt;/p&gt;</summary></entry><entry><title>500 Lines or Less Release on July 12th, 2016</title><link href="http://aosabook.org/blog/2016/07/500-lines-or-less-release-on-july-12th-2016/" rel="alternate"></link><updated>2016-07-06T11:00:00+02:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2016-07-06:blog/2016/07/500-lines-or-less-release-on-july-12th-2016/</id><summary type="html">&lt;p&gt;We're happy to announce that the fourth AOSA volume "500 Lines or Less" will be
+released on Tuesday July 12th, 2016. As usual, the web version will be
+accessible for free on &lt;a href="http://aosabook.org"&gt;aosabook.org&lt;/a&gt;, while the PDF and
+paperback versions will be available for purchase from Lulu. Within a few
+weeks, the paperback will also be available on Amazon. All proceeds from sales
+will go to Amnesty International.&lt;/p&gt;
+&lt;p&gt;Since "500 Lines" is a very code-heavy book, we've decided not to officially
+produce an ePub or mobi version of this volume. We still haven't seen good
+examples of code-first books being produced in this format, and we feel that
+the freely-accessible web format is much more accessible on mobile. Those who
+can't live without an ePub can follow our instructions on how to &lt;a href="https://github.com/aosabook/500lines/blob/master/BUILD.md"&gt;build the
+book from source&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We're extremely grateful for all the support we've received from the hundreds
+of people who've reached out to us throughout the production of this book. Your
+reviews, issue reports, and direct contributions made this a much better volume
+than it would have been otherwise. &lt;/p&gt;
+&lt;p&gt;The production of 500Lines was greatly accelerated by the financial support of
+&lt;a href="https://www.pagerduty.com/"&gt;PagerDuty&lt;/a&gt;. Please join us in &lt;a href="https://twitter.com/pagerduty"&gt;thanking
+them&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Finally, I'd like to extend a huge thanks to AOSA general editor &lt;a href="http://www.amyrbrown.ca/"&gt;Amy
+Brown&lt;/a&gt;, who singlehandedly copy-edited all of the
+chapters, designed the cover, and rounded out the the thousands of rough edges
+that I left behind. If you or your colleagues are ever looking for someone who
+knows how to produce books from start to finish, Amy is the person to talk to.&lt;/p&gt;
+&lt;p&gt;We're looking forward to reading along with you next Tuesday.&lt;/p&gt;</summary></entry><entry><title>Early Access Release of "Contingent: A Fully Dynamic Build System" Chapter</title><link href="http://aosabook.org/blog/2016/05/early-access-release-of-contingent-a-fully-dynamic-build-system-chapter/" rel="alternate"></link><updated>2016-05-04T11:00:00+02:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2016-05-04:blog/2016/05/early-access-release-of-contingent-a-fully-dynamic-build-system-chapter/</id><summary type="html">&lt;p&gt;Today we've &lt;a href="http://aosabook.org/en/500L/contingent-a-fully-dynamic-build-system.html"&gt;published the &lt;em&gt;final chapter&lt;/em&gt;&lt;/a&gt; 
+in our &lt;a href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/"&gt;early access release&lt;/a&gt; 
+for 500 Lines. The chapter was written by &lt;a href="https://twitter.com/brandon_rhodes"&gt;Brandon Rhodes&lt;/a&gt; 
+and &lt;a href="https://twitter.com/drocco007"&gt;Daniel Rocco&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In this chapter, Brandon and Daniel explore the problem of dependency
+management in build systems. Throughout their exploration, we learn about how
+to use encapsulation, classes, and design patterns in a programming
+language with a strong set of builtin data structures and a rich standard
+library -- and, perhaps more importantly, when not to.&lt;/p&gt;
+&lt;p&gt;We'll write up another post next week about the release process and schedule
+for both the print and web versions of 500Lines. Thanks for reading along with
+us, and a special thank-you to everyone who opened issues and sent feedback on
+these chapters. &lt;/p&gt;
+&lt;p&gt;As usual, if you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>Early Access Release of "Event-Driven Web Framework" Chapter</title><link href="http://aosabook.org/blog/2016/04/early-access-release-of-event-driven-web-framework-chapter/" rel="alternate"></link><updated>2016-04-27T11:00:00+02:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2016-04-27:blog/2016/04/early-access-release-of-event-driven-web-framework-chapter/</id><summary type="html">&lt;p&gt;Today we've &lt;a href="http://aosabook.org/en/500L/an-event-driven-web-framework.html"&gt;published the twenty-first (and second-last!) chapter&lt;/a&gt; in our &lt;a href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/"&gt;early access
+release&lt;/a&gt;
+for 500 Lines. The chapter was written by &lt;a href="http://langnostic.inaimathi.ca/"&gt;Leo Zovic&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Throughout the course of this early access release, we've already seen a couple of different concurrency models -- a &lt;a href="http://aosabook.org/en/500L/a-simple-web-server.html"&gt;thread-based webserver&lt;/a&gt;, and a &lt;a href="http://aosabook.org/en/500L/a-web-crawler-with-asyncio-coroutines.html"&gt;web crawler that uses coroutines&lt;/a&gt;. In this chapter, we apply another approach to concurrency by building an &lt;em&gt;event-driven&lt;/em&gt; webserver in Common Lisp. We then extend this server into a full-featured web framework by leveraging the power of domain-specific languages.&lt;/p&gt;
+&lt;p&gt;Next week, we'll be releasing the final chapter in the early-access program. We'll be then doing a test print of the final draft, and the first print version will become available a couple of weeks after that. More on that to follow!&lt;/p&gt;
+&lt;p&gt;As usual, if you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>Early Access Release of "Image Filters" Chapter</title><link href="http://aosabook.org/blog/2016/04/early-access-release-of-image-filters-chapter/" rel="alternate"></link><updated>2016-04-13T11:00:00+02:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2016-04-13:blog/2016/04/early-access-release-of-image-filters-chapter/</id><summary type="html">&lt;p&gt;Today we've &lt;a href="http://aosabook.org/en/500L/making-your-own-image-filters.html"&gt;published the twentieth (!) chapter&lt;/a&gt; in our &lt;a href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/"&gt;early access
+release&lt;/a&gt;
+for 500 Lines. The chapter was written by &lt;a href="https://twitter.com/catehstn"&gt;Cate Huston&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In this chapter, we build an interactive image filtering program in Java. We also learn about the joy of prototyping, and how to test our code when it relies on frameworks that weren't designed with testability in mind.&lt;/p&gt;
+&lt;p&gt;As usual, if you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>Early Access Release of "Same-Origin Policy" Chapter</title><link href="http://aosabook.org/blog/2016/03/early-access-release-of-same-origin-policy-chapter/" rel="alternate"></link><updated>2016-03-31T11:00:00+02:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2016-03-31:blog/2016/03/early-access-release-of-same-origin-policy-chapter/</id><summary type="html">&lt;p&gt;Today we've &lt;a href="http://aosabook.org/en/500L/the-same-origin-policy.html"&gt;published the nineteenth chapter&lt;/a&gt; in our &lt;a href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/"&gt;early access
+release&lt;/a&gt;
+for 500 Lines. The chapter was written by Eunsuk Kang, Santiago Perez De Rosso, and Daniel Jackson of the &lt;a href="http://sdg.csail.mit.edu/"&gt;Software Design Group&lt;/a&gt; at MIT.&lt;/p&gt;
+&lt;p&gt;This chapter is a bit different from the others in the book. Instead of
+building a working program, we are building &lt;em&gt;models&lt;/em&gt; of systems that allow us
+to explore their behaviors. We do this using a modelling language called
+&lt;a href="http://alloy.mit.edu/alloy/"&gt;Alloy&lt;/a&gt;. Along the way, we learn how &lt;em&gt;agile
+modelling&lt;/em&gt; can help us discover gaps in our designs before or after we've fully
+built them out.&lt;/p&gt;
+&lt;p&gt;As usual, if you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>Early Access Release of Dann Toliver's "Dagoba" Chapter</title><link href="http://aosabook.org/blog/2016/03/early-access-release-of-dann-tolivers-dagoba-chapter/" rel="alternate"></link><updated>2016-03-02T11:00:00+01:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2016-03-02:blog/2016/03/early-access-release-of-dann-tolivers-dagoba-chapter/</id><summary type="html">&lt;p&gt;Today we've &lt;a href="http://aosabook.org/en/500L/dagoba-an-in-memory-graph-database.html"&gt;published the eighteenth chapter&lt;/a&gt; in our &lt;a href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/"&gt;early access
+release&lt;/a&gt;
+for 500 Lines. The chapter was written by &lt;a href="https://twitter.com/dann"&gt;Dann Toliver&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In this chapter, Dann walks us through building a &lt;em&gt;graph database&lt;/em&gt; from first
+principles in JavaScript. Along the way, we pay careful attention to the design
+decisions we are making, and have several opportunities to assess the kinds of
+predictions and tradeoffs that practicing programmers face in their work every
+day. The end result is a database with surprisingly powerful query capabilities
+that runs in your browser.&lt;/p&gt;
+&lt;p&gt;As usual, if you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>Early Access Release of Greg Wilson's "Simple Web Server" Chapter</title><link href="http://aosabook.org/blog/2016/02/early-access-release-of-greg-wilsons-simple-web-server-chapter/" rel="alternate"></link><updated>2016-02-25T11:00:00+01:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2016-02-25:blog/2016/02/early-access-release-of-greg-wilsons-simple-web-server-chapter/</id><summary type="html">&lt;p&gt;Today we've &lt;a href="http://aosabook.org/en/500L/a-simple-web-server.html"&gt;published the seventeenth chapter&lt;/a&gt; in our &lt;a href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/"&gt;early access
+release&lt;/a&gt;
+for 500 Lines. The chapter was written by &lt;a href="https://twitter.com/gvwilson"&gt;Greg Wilson&lt;/a&gt;, the founder of the AOSA series and co-editor of the first two volumes.&lt;/p&gt;
+&lt;p&gt;In this chapter, we start out by writing the simplest possible web server we
+can think of, and then gradually extend it to support richer and more complex
+features. In the process, we learn a few lessons about writing software that is
+resilient to change. &lt;/p&gt;
+&lt;p&gt;As usual, if you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>Early Access Release of Marina Samuel's "Optical Character Recognition" Chapter</title><link href="http://aosabook.org/blog/2016/02/early-access-release-of-marina-samuels-optical-character-recognition-chapter/" rel="alternate"></link><updated>2016-02-02T11:00:00+01:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2016-02-02:blog/2016/02/early-access-release-of-marina-samuels-optical-character-recognition-chapter/</id><summary type="html">&lt;p&gt;Today we've &lt;a href="http://aosabook.org/en/500L/optical-character-recognition-ocr.html"&gt;published the sixteenth chapter&lt;/a&gt; in our &lt;a href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/"&gt;early access
+release&lt;/a&gt;
+for 500 Lines. The chapter was written by &lt;a href="http://www.marinasamuel.com/"&gt;Marina Samuel&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Most programmers feel a certain sense of wonder the first few times they write
+a working program. However, there is a special sense of wonder that comes from
+writing a program that can actually &lt;em&gt;learn&lt;/em&gt; behaviours that the programmer has
+not explicitly specified.&lt;/p&gt;
+&lt;p&gt;In this chapter, Marina shows us how to write a program that recognizes
+handwritten characters by using the machine-learning technique of training a
+&lt;em&gt;neural network&lt;/em&gt; to do the job for us. &lt;/p&gt;
+&lt;p&gt;As usual, if you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>Early Access Release of Dr. Christian Muise's "Flow Shop Scheduler" Chapter</title><link href="http://aosabook.org/blog/2016/01/early-access-release-of-dr-christian-muises-flow-shop-scheduler-chapter/" rel="alternate"></link><updated>2016-01-14T11:00:00+01:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2016-01-14:blog/2016/01/early-access-release-of-dr-christian-muises-flow-shop-scheduler-chapter/</id><summary type="html">&lt;p&gt;Today we've &lt;a href="http://aosabook.org/en/500L/a-flow-shop-scheduler.html"&gt;published the fifteenth chapter&lt;/a&gt; in our &lt;a href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/"&gt;early access
+release&lt;/a&gt;
+for 500 Lines. The chapter was written by &lt;a href="http://haz.ca"&gt;Dr. Christian Muise&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Most programmers eventually encounter the basic idea of the Strategy pattern,
+which allows you to switch between multiple implementations of an operation at
+runtime depending on the scenario. &lt;/p&gt;
+&lt;p&gt;In this chapter, Christian shows us how this pattern can be useful when trying
+to solve the &lt;em&gt;flow shop scheduling&lt;/em&gt; problem, which is a notoriously difficult
+problem in computer science and operations research. More generally, we learn
+how to use this pattern in our own practice when faced with intractable
+problems.&lt;/p&gt;
+&lt;p&gt;As usual, if you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>Early Access Release of Dethe Elza's "Blockcode" Chapter</title><link href="http://aosabook.org/blog/2015/12/early-access-release-of-dethe-elzas-blockcode-chapter/" rel="alternate"></link><updated>2015-12-17T11:00:00+01:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2015-12-17:blog/2015/12/early-access-release-of-dethe-elzas-blockcode-chapter/</id><summary type="html">&lt;p&gt;Today we've &lt;a href="http://aosabook.org/en/500L/blockcode-a-visual-programming-toolkit.html"&gt;published the fourteenth chapter&lt;/a&gt; in our &lt;a href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/"&gt;early access
+release&lt;/a&gt;
+for 500 Lines. The chapter was written by &lt;a href="https://twitter.com/dethe"&gt;Dethe Elza&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Visual programming languages are popular in early computer science education because, as Dethe notes in his chapter, "a well-done block language can eliminate syntax errors completely." &lt;/p&gt;
+&lt;p&gt;In this week's early-access release, we create our own visual programming language in JavaScript from first principles. Along the way, we think twice about the wisdom of following conventional software organization principles like MVC (model-view-controller) without first analyzing the nature of our problem.&lt;/p&gt;
+&lt;p&gt;As usual, if you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>Early Access Release of Jessica Hamrick's "Rejection Sampler" Chapter</title><link href="http://aosabook.org/blog/2015/12/early-access-release-of-jessica-hamricks-rejection-sampler-chapter/" rel="alternate"></link><updated>2015-12-10T11:00:00+01:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2015-12-10:blog/2015/12/early-access-release-of-jessica-hamricks-rejection-sampler-chapter/</id><summary type="html">&lt;p&gt;Today we've &lt;a href="http://aosabook.org/en/500L/a-rejection-sampler.html"&gt;published the thirteenth chapter&lt;/a&gt; in our &lt;a href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/"&gt;early access
+release&lt;/a&gt;
+for 500 Lines. The chapter was written by &lt;a href="https://twitter.com/jhamrick"&gt;Jessica Hamrick&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In this chapter, Jess teaches us about &lt;em&gt;sampling&lt;/em&gt;, a generally applicable technique for complex problems in which it is difficult to find an exact solution. She uses an interesting motivating example -- generating magical items in a game -- to explain how this works. Along the way, we also learn how to write code that works at the limits of floating point precision.&lt;/p&gt;
+&lt;p&gt;As usual, if you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>Early Access Release of Malini Das' "Continuous Integration" Chapter</title><link href="http://aosabook.org/blog/2015/12/early-access-release-of-malini-das-continuous-integration-chapter/" rel="alternate"></link><updated>2015-12-04T11:00:00+01:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2015-12-04:blog/2015/12/early-access-release-of-malini-das-continuous-integration-chapter/</id><summary type="html">&lt;p&gt;Today we've &lt;a href="http://aosabook.org/en/500L/a-continuous-integration-system.html"&gt;published the twelfth chapter&lt;/a&gt; in our &lt;a href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/"&gt;early access
+release&lt;/a&gt;
+for 500 Lines. The chapter was written by &lt;a href="https://twitter.com/malinidas"&gt;Malini Das&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In this chapter, Malini shows us how to design a fault-tolerant, scalable continuous integration system by splitting into multiple components that each have a specialized role. We've seen this a more academic example of this once before in the &lt;a href="http://aosabook.org/blog/2015/09/early-access-release-of-dustin-j-mitchells-clustering-by-consensus-chapter/"&gt;cluster chapter&lt;/a&gt;; in this one, we get to see a more practical implementation of a distributed system that solves a real-life problem. &lt;/p&gt;
+&lt;p&gt;As usual, if you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>Early Access Release of Dessy Daskalov's "A Pedometer in the Real World" Chapter</title><link href="http://aosabook.org/blog/2015/11/early-access-release-of-dessy-daskalovs-a-pedometer-in-the-real-world-chapter/" rel="alternate"></link><updated>2015-11-24T11:00:00+01:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2015-11-24:blog/2015/11/early-access-release-of-dessy-daskalovs-a-pedometer-in-the-real-world-chapter/</id><summary type="html">&lt;p&gt;Today we've &lt;a href="http://aosabook.org/en/500L/a-pedometer-in-the-real-world.html"&gt;published the eleventh chapter&lt;/a&gt; in our &lt;a href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/"&gt;early access
+release&lt;/a&gt;
+for 500 Lines. The chapter was written by &lt;a href="https://twitter.com/dess_e"&gt;Dessy Daskalov&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As computers continue to become more fully integrated into human life, more of us are writing programs that are forced to interact with the messiness of the real, physical world. Dessy demonstrates how we can build and refine effective models of reality (much like many other scientists do every day!) in order to accomplish the practical goal of building a working pedometer. &lt;/p&gt;
+&lt;p&gt;As usual, if you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>Early Access Release of Allison Kaptur's "A Python Interpreter Written in Python" Chapter</title><link href="http://aosabook.org/blog/2015/11/early-access-release-of-allison-kapturs-a-python-interpreter-written-in-python-chapter/" rel="alternate"></link><updated>2015-11-12T11:00:00+01:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2015-11-12:blog/2015/11/early-access-release-of-allison-kapturs-a-python-interpreter-written-in-python-chapter/</id><summary type="html">&lt;p&gt;Today we've &lt;a href="http://aosabook.org/en/500L/a-python-interpreter-written-in-python.html"&gt;published the tenth chapter&lt;/a&gt; in our &lt;a href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/"&gt;early access
+release&lt;/a&gt;
+for 500 Lines. The chapter was written by &lt;a href="https://twitter.com/akaptur"&gt;Allison Kaptur&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In this chapter, Allison demystifies the process of writing an interpreter by building one up from very modest beginnings. In the process, we learn about stack machines and how they can be used as a foundation for simply expressing what appear at first glance to be very complicated computations. &lt;/p&gt;
+&lt;p&gt;As usual, if you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>Early Access Release of Erick Dransch's "3D Modeller" Chapter</title><link href="http://aosabook.org/blog/2015/11/early-access-release-of-erick-dranschs-3d-modeller-chapter/" rel="alternate"></link><updated>2015-11-06T11:00:00+01:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2015-11-06:blog/2015/11/early-access-release-of-erick-dranschs-3d-modeller-chapter/</id><summary type="html">&lt;p&gt;Today we've &lt;a href="http://aosabook.org/en/500L/a-3d-modeller.html"&gt;published the ninth chapter&lt;/a&gt; in our &lt;a href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/"&gt;early access
+release&lt;/a&gt;
+for 500 Lines. The chapter was written by &lt;a href="http://www.erickdransch.com/"&gt;Erick Dransch&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Any student of 3D graphics programming will quickly encounter the pattern of the 'scene graph', which is used to organize and orient the components of a scene to be rendered. Erick's chapter teaches us about this pattern, but additionally shows us how this core data structure can be integrated into an interactive system. &lt;/p&gt;
+&lt;p&gt;As usual, if you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>Early Access Release of Taavi Burns' "Dog Bed Database" Chapter</title><link href="http://aosabook.org/blog/2015/10/early-access-release-of-taavi-burns-dog-bed-database-chapter/" rel="alternate"></link><updated>2015-10-28T11:00:00+01:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2015-10-28:blog/2015/10/early-access-release-of-taavi-burns-dog-bed-database-chapter/</id><summary type="html">&lt;p&gt;Today we've &lt;a href="http://aosabook.org/en/500L/dbdb-dog-bed-database.html"&gt;published the eighth chapter&lt;/a&gt; in our &lt;a href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/"&gt;early access
+release&lt;/a&gt;
+for 500 Lines. The chapter was written by &lt;a href="https://twitter.com/jaaaarel"&gt;Taavi Burns&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Continuing with our persistent datastore theme from &lt;a href="http://aosabook.org/blog/2015/10/early-access-release-of-yoav-rubins-archaelogy-inspired-database-chapter/"&gt;last week&lt;/a&gt;, Taavi's chapter focuses on how we characterize and implement guaranteed behaviour in our systems. This chapter is also different than many of the others, in that we learn about this system the way that most programmers do; by exploring it in its completed form, rather than building it up in increments. &lt;/p&gt;
+&lt;p&gt;As usual, if you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>Early Access Release of Yoav Rubin's "Archaelogy-Inspired Database" Chapter</title><link href="http://aosabook.org/blog/2015/10/early-access-release-of-yoav-rubins-archaelogy-inspired-database-chapter/" rel="alternate"></link><updated>2015-10-20T11:00:00+02:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2015-10-20:blog/2015/10/early-access-release-of-yoav-rubins-archaelogy-inspired-database-chapter/</id><summary type="html">&lt;p&gt;Today we've &lt;a href="http://aosabook.org/en/500L/an-archaeology-inspired-database.html"&gt;published the seventh chapter&lt;/a&gt; in our &lt;a href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/"&gt;early access
+release&lt;/a&gt;
+for 500 Lines. The chapter was written by &lt;a href="https://twitter.com/yoavrubin"&gt;Yoav Rubin&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Programmers often encounter some sort of persistent data store very early in
+our careers. There is nothing quite as opaque and mysterious as a full-featured
+database system, regardless of the underlying paradigm used for data
+organization.&lt;/p&gt;
+&lt;p&gt;In this chapter, Yoav shows how using immutability as a guiding principle
+allows us to build an astonishingly capable database system in fewer than 500
+lines of Clojure. This includes a transaction system, a miniature declarative
+query language, and a host of other features. &lt;/p&gt;
+&lt;p&gt;As usual, if you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>Early Access Release of Carl Friedrich Bolz's "Object Model" Chapter</title><link href="http://aosabook.org/blog/2015/10/early-access-release-of-carl-friedrich-bolzs-object-model-chapter/" rel="alternate"></link><updated>2015-10-07T11:00:00+02:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2015-10-07:blog/2015/10/early-access-release-of-carl-friedrich-bolzs-object-model-chapter/</id><summary type="html">&lt;p&gt;Today we've &lt;a href="http://aosabook.org/en/500L/a-simple-object-model.html"&gt;published the sixth chapter&lt;/a&gt; in our &lt;a href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/"&gt;early access
+release&lt;/a&gt;
+for 500 Lines. The chapter was written by &lt;a href="https://twitter.com/cfbolz"&gt;Carl Friedrich Bolz&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In this chapter, Carl teaches us that we don't need to know how to write a compiler just to experiment with producing different semantics. He also teaches us a bit about test-driven development along the way. &lt;/p&gt;
+&lt;p&gt;As usual, if you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>Early Access Release of Dustin J. Mitchell's "Clustering by Consensus" Chapter</title><link href="http://aosabook.org/blog/2015/09/early-access-release-of-dustin-j-mitchells-clustering-by-consensus-chapter/" rel="alternate"></link><updated>2015-09-29T11:00:00+02:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2015-09-29:blog/2015/09/early-access-release-of-dustin-j-mitchells-clustering-by-consensus-chapter/</id><summary type="html">&lt;p&gt;Today we've &lt;a href="http://aosabook.org/en/500L/clustering-by-consensus.html"&gt;published the fifth chapter&lt;/a&gt; in our &lt;a href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/"&gt;early access
+release&lt;/a&gt;
+for 500 Lines. The chapter was written by &lt;a href="https://github.com/djmitche"&gt;Dustin J. Mitchell&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Donald Knuth once said that the best theory is motivated by practice, and the best practice by theory. In this chapter, Dustin does something that many programmers have do at least once in their career; he implements a rather opaque algorithm from primary sources (PAXOS) that solves a very practical problem (distributed consensus.) He then demonstrates how sound engineering practices allow us to implement something that at first seems slightly beyond our capability, and to convince ourselves that it actually works. &lt;/p&gt;
+&lt;p&gt;As usual, if you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>Early Access Release of Leah Hanson's "Static Analysis" Chapter</title><link href="http://aosabook.org/blog/2015/09/early-access-release-of-leah-hansons-static-analysis-chapter/" rel="alternate"></link><updated>2015-09-22T11:00:00+02:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2015-09-22:blog/2015/09/early-access-release-of-leah-hansons-static-analysis-chapter/</id><summary type="html">&lt;p&gt;Today we've &lt;a href="http://aosabook.org/en/500L/static-analysis.html"&gt;published the fourth
+chapter&lt;/a&gt; in our &lt;a href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/"&gt;early access
+release&lt;/a&gt;
+for 500 Lines. The chapter was written by &lt;a href="https://twitter.com/astrieanna"&gt;Leah
+Hanson&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Many programmers treat their programming language implementations as black
+boxes. Static analysis tools or language analysis tools can seem
+indistinguishable from magic, and good treatments of these topics have been
+buried deep in academic curricula that few of us make time for.&lt;/p&gt;
+&lt;p&gt;In our opinion, Leah has done a terrific job of demystifying the nature of the
+techniques used in static analysis and introspection in her chapter. While her
+work is specific to &lt;a href="http://julialang.org/"&gt;Julia&lt;/a&gt;, the lessons learned are
+applicable in other languages. Enjoy!&lt;/p&gt;
+&lt;p&gt;If you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;We'd also like to take this opportunity to remind our readers that this book
+would not have been possible without the financial support of
+&lt;a href="http://pagerduty.com/"&gt;PagerDuty&lt;/a&gt;. Please take this opportunity to &lt;a href="https://twitter.com/pagerduty"&gt;let them
+know&lt;/a&gt; if you've found this work useful.&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>Early Access Release of "A Web Crawler With asyncio Coroutines"</title><link href="http://aosabook.org/blog/2015/09/early-access-release-of-a-web-crawler-with-asyncio-coroutines/" rel="alternate"></link><updated>2015-09-15T11:00:00+02:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2015-09-15:blog/2015/09/early-access-release-of-a-web-crawler-with-asyncio-coroutines/</id><summary type="html">&lt;p&gt;Today we've &lt;a href="http://aosabook.org/en/500L/a-web-crawler-with-asyncio-coroutines.html"&gt;published the third
+chapter&lt;/a&gt;
+in our &lt;a href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/"&gt;early access
+release&lt;/a&gt;
+for 500 Lines. The chapter was written by &lt;a href="https://twitter.com/jessejiryudavis"&gt;A. Jesse Jiryu Davis&lt;/a&gt; and &lt;a href="https://twitter.com/gvanrossum"&gt;Guido
+van Rossum&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We hope that this chapter provides Python programmers with a deep introduction
+to how coroutines work, and why and when we should use them. Coroutines first
+became a hot topic in Python with the release of the asyncio framework; now, in
+Python 3.5, they are also built directly into the language itself. &lt;/p&gt;
+&lt;p&gt;Beyond Python, there has been a longstanding tension between
+&lt;a href="https://web.stanford.edu/~ouster/cgi-bin/papers/threads.pdf"&gt;thread-based&lt;/a&gt; and
+&lt;a href="http://www.cs.berkeley.edu/~brewer/papers/threads-hotos-2003.pdf"&gt;event-based&lt;/a&gt;
+systems in computer science. It can be helpful to a practising programmer to
+understand the nuances in this debate, as anyone building things atop
+frameworks that use these constructs will eventually have to understand them.&lt;/p&gt;
+&lt;p&gt;We will have chapters on building thread-based and event-based systems in "500
+Lines or Less", and we think that this chapter will serve as an interesting
+contrast to both of these contributions in the final draft of the book.&lt;/p&gt;
+&lt;p&gt;If you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>Early Access Release of Audrey Tang's "Web Spreadsheet" Chapter</title><link href="http://aosabook.org/blog/2015/09/early-access-release-of-audrey-tangs-web-spreadsheet-chapter/" rel="alternate"></link><updated>2015-09-08T11:00:00+02:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2015-09-08:blog/2015/09/early-access-release-of-audrey-tangs-web-spreadsheet-chapter/</id><summary type="html">&lt;p&gt;Today we've &lt;a href="http://aosabook.org/en/500L/web-spreadsheet.html"&gt;published the second
+chapter&lt;/a&gt; in our &lt;a href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/"&gt;early access
+release&lt;/a&gt;
+for 500 Lines. &lt;a href="https://twitter.com/audreyt"&gt;Audrey Tang&lt;/a&gt; has contributed
+chapters to
+&lt;a href="http://aosabook.org/en/posa/from-socialcalc-to-ethercalc.html"&gt;two&lt;/a&gt;
+&lt;a href="http://aosabook.org/en/socialcalc.html"&gt;previous&lt;/a&gt; volumes of AOSA, and we're
+very happy to have her back for &lt;a href="https://github.com/aosabook/500lines"&gt;"500 Lines or
+Less."&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;When Audrey's chapter was first presented to readers, many protested at how
+dependent it was on external frameworks and libraries. This is only half of the
+truth; Instead of just leveraging these components, Audrey provides a miniature
+ontology for the kinds of patterns that web programmers can expect to use now
+and in the future. (For the curious, there is also a &lt;a href="https://github.com/audreyt/500lines/tree/master/spreadsheet/as-without-angularjs"&gt;99-line version that uses
+only DOM
+APIs&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;Most engineers spend a lot of time figuring out how to build software based on
+the work of others. We feel that reading about how an experienced engineer
+identifies the patterns in software she is reusing is a valuable lesson for us
+all.&lt;/p&gt;
+&lt;p&gt;This chapter was written &lt;em&gt;way back&lt;/em&gt; in 2014 when Traceur was the leading ES6
+compiler implementation. Audrey has informed us that she probably would have
+used &lt;a href="https://babeljs.io/"&gt;Babel&lt;/a&gt; if she was writing this chapter now. If
+you are interested in updating the source and the chapter to reflect this,
+we're open to pull requests!&lt;/p&gt;
+&lt;p&gt;If you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Audrey also helpfully translated her chapter into Traditional Chinese; you can
+find the source for this version
+&lt;a href="https://github.com/audreyt/500lines/blob/master/spreadsheet/chapter.zh-tw.md"&gt;here&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>500 Lines or Less Early Access Web Release</title><link href="http://aosabook.org/blog/2015/09/500-lines-or-less-early-access-web-release/" rel="alternate"></link><updated>2015-09-01T11:00:00+02:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2015-09-01:blog/2015/09/500-lines-or-less-early-access-web-release/</id><summary type="html">&lt;p&gt;It has been a long time coming, but I'm happy to announce that the first
+artifact from 500 Lines or Less will be published on aosabook.org today.&lt;/p&gt;
+&lt;p&gt;Writing a chapter for 500 Lines is a rigorous process. The code for
+each chapter is first reviewed by technical reviewers; then, the chapter drafts
+are reviewed by different readers for content and accessibility. Finally, our
+heroic copy editor Amy Brown examines each line of text for grammatical errors
+or tricky phrasings. And yet, we're sure there are still bugs in this book
+waiting to be found.&lt;/p&gt;
+&lt;p&gt;Just as it is very expensive to fix a bug once it hits production, it is
+similarly painful to find an error in a book once it has already gone to print.
+To this end, we're going to be doing an early-access release of each chapter on
+the 500Lines website at the rate of one per week for the next 20 weeks. We hope
+that getting these chapters out early will give all of you the chance to find
+the snags that we missed throughout this process. We expect to go to print very
+shortly after this process winds down. &lt;/p&gt;
+&lt;p&gt;These early-access chapters will only be published from this blog, and will be
+linked from the news section on
+&lt;a href="http://aosabook.org/en/index.html"&gt;aosabook.org&lt;/a&gt; and announced on Twitter from
+&lt;a href="https://twitter.com/aosabook"&gt;@aosabook&lt;/a&gt;. The production version of the
+website will be published around the same time as the final draft goes to
+print.&lt;/p&gt;
+&lt;p&gt;With all of that out of the way, I'm happy to share &lt;a href="https://twitter.com/nedbat"&gt;Ned Batchelder's&lt;/a&gt;
+&lt;a href="http://aosabook.org/en/500L/a-template-engine.html"&gt;template engine chapter&lt;/a&gt;
+with you. Ned's chapter is a great example of what we were hoping to
+accomplish with 500Lines: it is compact, well-explained, and there are several
+discussions of interesting decisions and trade-offs he had to make while writing
+it. &lt;/p&gt;
+&lt;p&gt;If you find errors you think are worth reporting, please open an issue on our
+&lt;a href="https://github.com/aosabook/500lines/issues"&gt;GitHub tracker&lt;/a&gt;. We'll try our
+best to collate issues sent to us on Twitter and via other channels, but we
+have a lot of book to work on still, and we're probably going to miss things
+unless they're persisted in that tracker somehow.&lt;/p&gt;
+&lt;p&gt;Many thanks again to
+&lt;a href="https://www.pagerduty.com/company/work-with-us/"&gt;PagerDuty&lt;/a&gt; for their generous
+sponsorship of this project.  Please give them a
+&lt;a href="https://twitter.com/pagerduty"&gt;public thank-you or two&lt;/a&gt; throughout this
+early-access release for their contribution.&lt;/p&gt;</summary></entry><entry><title>500 Lines or Less sponsored by PagerDuty</title><link href="http://aosabook.org/blog/2015/03/500-lines-or-less-sponsored-by-pagerduty/" rel="alternate"></link><updated>2015-03-02T10:00:00+01:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2015-03-02:blog/2015/03/500-lines-or-less-sponsored-by-pagerduty/</id><summary type="html">&lt;p&gt;We're very happy to announce that &lt;a href="http://pagerduty.com"&gt;PagerDuty&lt;/a&gt; will be
+sponsoring the production of &lt;a href="http://github.com/aosabook/500lines"&gt;"500 Lines or Less"&lt;/a&gt;, 
+the fourth book in the Architecture of Open Source Applications series.&lt;/p&gt;
+&lt;p&gt;The AOSA books are published and distributed on a not-for-profit basis, with
+all of our proceeds going to Amnesty International. However, there are always labor
+costs associated with the production of each book. With PagerDuty's support, we
+will be able to continue to donate all of the book's proceeds while still
+covering these costs. &lt;/p&gt;
+&lt;p&gt;PagerDuty is well-known for its strong engineering culture, and we feel that
+they are the perfect partner to support the kind of work we're doing with AOSA.&lt;/p&gt;
+&lt;p&gt;We are very grateful for their support. If you are too, please let them know
+&lt;a href="https://twitter.com/pagerduty"&gt;@PagerDuty&lt;/a&gt;, or 
+&lt;a href="http://www.pagerduty.com/company/work-with-us/"&gt;learn more about them&lt;/a&gt;.&lt;/p&gt;</summary></entry><entry><title>500 Lines Open Space at PyCon 2014</title><link href="http://aosabook.org/blog/2014/04/500-lines-open-space-at-pycon-2014/" rel="alternate"></link><updated>2014-04-03T10:00:00+02:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2014-04-03:blog/2014/04/500-lines-open-space-at-pycon-2014/</id><summary type="html">&lt;p&gt;Are you coming to &lt;a href="http://pycon.us"&gt;PyCon 2014&lt;/a&gt;? If so, we invite you to join
+us at the &lt;a href="https://github.com/aosabook/500lines"&gt;500 Lines or Less&lt;/a&gt; Open Space!&lt;/p&gt;
+&lt;p&gt;The purpose of the Open Space is to discuss some sample programs and chapters
+that have been written so far, and to brainstorm possible directions that this
+work could take from here. &lt;/p&gt;
+&lt;p&gt;The open space is at &lt;strong&gt;1PM on Sunday April 14th in room 522A&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;There's no requirement to sign up beforehand -- all you have to do is show up.&lt;/p&gt;
+&lt;p&gt;Hope to see you there!&lt;/p&gt;</summary></entry><entry><title>Call for Technical Reviewers for "500 Lines or Less"</title><link href="http://aosabook.org/blog/2014/01/call-for-technical-reviewers-for-500-lines-or-less/" rel="alternate"></link><updated>2014-01-03T11:54:00+01:00</updated><author><name>Michael DiBernardo</name></author><id>tag:aosabook.org,2014-01-03:blog/2014/01/call-for-technical-reviewers-for-500-lines-or-less/</id><summary type="html">&lt;p&gt;While the &lt;a href="http://aosabook.org/"&gt;Performance of Open Source Applications&lt;/a&gt; was
+released just a few months ago, work on the fourth AOSA book is already well
+underway!&lt;/p&gt;
+&lt;p&gt;This volume is called &lt;em&gt;500 Lines or Less&lt;/em&gt;, and is focused on short but complete
+implementations of canonical programs and architectural patterns in computer
+science. &lt;/p&gt;
+&lt;p&gt;The motivation is described succinctly in the project statement: &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Every architect studies family homes, apartments, schools, and other common
+types of buildings during her training. Equally, every programmer ought to
+know how a compiler turns text into instructions, how a spreadsheet updates
+cells, and how a browser decides what to put where when it renders a page.
+This book's goal is to give readers that broad-ranging overview, and while
+doing so, to help them understand how software designers think.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Each chapter will consist of a (max) 500 line, self-contained program, and a
+narrative surrounding that program that describes how it works, and (more
+importantly) &lt;em&gt;why&lt;/em&gt; it is designed the way it is. &lt;/p&gt;
+&lt;p&gt;Contributors &lt;a href="https://github.com/aosabook/500lines"&gt;are already working&lt;/a&gt; on
+their 500 line implementations. Once each contributor completes a "first draft"
+of their code, we assign them a technical reviewers to provide constructive
+commentary.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;That's where we need your help.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;There are a &lt;em&gt;lot&lt;/em&gt; of contributors to this project, and we want them to get as
+much feedback as possible before they begin writing up their chapters!&lt;/p&gt;
+&lt;p&gt;We're looking for reviewers at all levels of experience. If you're still early in
+your programming career, we'd especially love to hear from you, as your
+opinions as to which parts are easily accessible and which are confusing will
+be incredibly helpful.&lt;/p&gt;
+&lt;p&gt;In terms of scheduling, our first-draft code submissions are due by end of February, but
+many contributors are ahead of schedule and could use reviewers right now!&lt;/p&gt;
+&lt;p&gt;We're also hoping that our code reviewers will stick around to provide
+commentary on the drafts of completed chapters once those start to roll in from
+March onwards.&lt;/p&gt;
+&lt;p&gt;All technical reviewers will of course receive credit for their work in the
+book, and will be supporting a good cause -- all royalties from paid-for
+versions of the book will go to Amnesty International.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If this sounds fun to you, &lt;a href="https://docs.google.com/forms/d/1qgpZOgk2RWV00A4qJg_HrXe_wnFyVZT_hNDE3u38QrE/viewform"&gt;please sign up here&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Questions? Please ask at &lt;a href="mailto:aosabook@aosabook.org"&gt;aosa@aosabook.org&lt;/a&gt;. We look forward
+to having you on board!&lt;/p&gt;</summary></entry><entry><title>The Performance of Open Source Applications is now available for the Kindle</title><link href="http://aosabook.org/blog/2013/11/the-performance-of-open-source-applications-is-now-available-for-the-kindle/" rel="alternate"></link><updated>2013-11-03T14:30:00+01:00</updated><author><name>Tavish Armstrong</name></author><id>tag:aosabook.org,2013-11-03:blog/2013/11/the-performance-of-open-source-applications-is-now-available-for-the-kindle/</id><summary type="html">&lt;p&gt;The Performance of Open Source Applications is now available for the Kindle
+through
+&lt;a href="http://www.amazon.com/Performance-Open-Source-Applications-ebook/dp/B00GEZEKQ0/ref=sr_1_1?ie=UTF8&amp;amp;qid=1383506774&amp;amp;sr=8-1&amp;amp;keywords=the+performance+of+open+source+applications"&gt;Amazon&lt;/a&gt;.
+As with the other electronic versions, this one costs USD$5.99, with royalties
+going to Amnesty International.&lt;/p&gt;
+&lt;p&gt;If you don't have a Kindle, see the &lt;a href="http://aosabook.org/en/buy.html"&gt;Buy&lt;/a&gt; page
+for more information on available formats.&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>The Performance of Open Source Applications is now available in ePub and PDF</title><link href="http://aosabook.org/blog/2013/11/the-performance-of-open-source-applications-is-now-available-in-epub-and-pdf/" rel="alternate"></link><updated>2013-11-01T10:17:00+01:00</updated><author><name>Tavish Armstrong</name></author><id>tag:aosabook.org,2013-11-01:blog/2013/11/the-performance-of-open-source-applications-is-now-available-in-epub-and-pdf/</id><summary type="html">&lt;p&gt;The Performance of Open Source Applications is now available in &lt;a href="http://www.lulu.com/shop/tavish-armstrong/the-performance-of-open-source-applications/ebook/product-21277893.html"&gt;ePub&lt;/a&gt;
+and &lt;a href="http://www.lulu.com/shop/tavish-armstrong/the-performance-of-open-source-applications/ebook/product-21278013.html"&gt;PDF&lt;/a&gt; formats on Lulu.com. Both cost USD$5.99 and as with the print
+edition, the royalties go to Amnesty International.&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary></entry><entry><title>The Performance of Open Source Applications is Out!</title><link href="http://aosabook.org/blog/2013/10/the-performance-of-open-source-applications-is-out/" rel="alternate"></link><updated>2013-10-07T14:33:00+02:00</updated><author><name>Tavish Armstrong</name></author><id>tag:aosabook.org,2013-10-07:blog/2013/10/the-performance-of-open-source-applications-is-out/</id><summary type="html">&lt;p&gt;I'm happy to announce that &lt;em&gt;The Performance of Open Source Applications&lt;/em&gt; is finally out.
+You can read it on our
+&lt;a href="http://aosabook.org/en/index.html"&gt;main site&lt;/a&gt; or 
+buy a paper copy from &lt;a href="http://www.lulu.com/shop/tavish-armstrong/the-performance-of-open-source-applications/paperback/product-21241242.html"&gt;Lulu&lt;/a&gt; for US$25.00.
+As with the previous two books, all royalties go to Amnesty International.&lt;/p&gt;
+&lt;p&gt;Thank you to everyone who contributed, and everyone who cheered us on.
+I hope you learn as much from the authors as I did.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="The cover for The Performance of Open Source Applications" src="/images/posa-cover-thumb.png" /&gt;&lt;/p&gt;</summary></entry><entry><title>POSA Chapter List</title><link href="http://aosabook.org/blog/2013/08/posa-chapter-list/" rel="alternate"></link><updated>2013-08-08T18:03:00+02:00</updated><author><name>Tavish Armstrong</name></author><id>tag:aosabook.org,2013-08-08:blog/2013/08/posa-chapter-list/</id><summary type="html">&lt;p&gt;&lt;em&gt;The Performance of Open Source Applications&lt;/em&gt; isn't here yet, but it will be
+soon.  In the mean time, I'll post the chapter list.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;High Performance Networking in Chromium&lt;/em&gt; by Ilya Grigorik &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;From SocialCalc to EtherCalc&lt;/em&gt; by Audrey Tang &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Ninja&lt;/em&gt; by Evan Martin &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Parsing XML at the speed of light&lt;/em&gt; by Arseny Kapoulkine &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Memshrink&lt;/em&gt; by Kyle Huey &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Applying Optimization Principle Patterns to Component Deployment and Configuration Tools&lt;/em&gt;
+by Doug C. Schmidt, William R. Otte, and Aniruddha Gokhale&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Infinispan&lt;/em&gt; by Manik Surtani&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Talos&lt;/em&gt; by Clint Talbert and Joel Maher &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Zotonic&lt;/em&gt; by Michiel KLønhammer, Arjan Scherpenisse, and Marc Worrell &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Secrets of Mobile Network Performance&lt;/em&gt; by Bryce Howard &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Warp&lt;/em&gt; by Kazu Yamamoto, Michael Snoyman and Andreas Voellmy &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Working with Big Data in Bioinformatics&lt;/em&gt; by Eric McDonald and C. Titus Brown&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I'd like to take this moment also to thank everyone who responded to &lt;a href="https://twitter.com/aosabook/status/359052527586652162"&gt;this
+tweet&lt;/a&gt; asking for help
+with proofreading. You know who you are, and you are great.&lt;/p&gt;</summary></entry><entry><title>Release Engineering 2013</title><link href="http://aosabook.org/blog/2013/01/release-engineering-2013/" rel="alternate"></link><updated>2013-01-30T13:10:00+01:00</updated><author><name>Greg Wilson</name></author><id>tag:aosabook.org,2013-01-30:blog/2013/01/release-engineering-2013/</id><summary type="html">&lt;p&gt;&lt;a href="http://releng.polymtl.ca/"&gt;Releng 2013&lt;/a&gt; is a one day workshop (co-located with &lt;a href="http://2013.icse-conferences.org/"&gt;ICSE&lt;/a&gt;) to
+bring together release engineers and researchers to discuss the
+challenges in release engineering and develop areas for further
+research. Areas of discussion include research and practice of all
+activities in between regular development and actual usage of a software
+product by the end user, i.e., integration, build, test execution,
+packaging and delivery of software. The conference is May 20 in San
+Francisco and deadline for submission of talks in February 7th. For more
+information see &lt;a href="http://releng.polymtl.ca"&gt;http://releng.polymtl.ca&lt;/a&gt;.&lt;/p&gt;</summary></entry><entry><title>Using AOSA as a Textbook</title><link href="http://aosabook.org/blog/2012/11/using-aosa-as-a-textbook/" rel="alternate"></link><updated>2012-11-12T11:07:00+01:00</updated><author><name>Greg Wilson</name></author><id>tag:aosabook.org,2012-11-12:blog/2012/11/using-aosa-as-a-textbook/</id><summary type="html">&lt;p&gt;One of the reasons we started this project is that almost every other
+book on software architecture doesn't actually show readers the
+architectures of any actual systems. In particular, most university
+students can get through a four-year degree without ever seeing how
+large applications are put together. We're therefore very excited to
+learn that Dr. Neil Ernst is using AOSA in an undergrad course he's
+teaching at the University of British Columbia. If you'd like to see
+what his students think of the systems we've described, &lt;a href="https://docs.google.com/spreadsheet/ccc?key=0Ak3hetL00EgKdFBlWHBia0VBcE9jd3I5bDE5eGhtMnc#gid=0"&gt;their
+presentations are online&lt;/a&gt;. And if you know of anyone else doing this,
+please send us a pointer.&lt;/p&gt;</summary></entry><entry><title>Exciting day!</title><link href="http://aosabook.org/blog/2012/10/exciting-day/" rel="alternate"></link><updated>2012-10-30T02:05:00+01:00</updated><author><name>Tony Arkles</name></author><id>tag:aosabook.org,2012-10-30:blog/2012/10/exciting-day/</id><summary type="html">&lt;p&gt;Yesterday we received our first first draft for POSA! My guess is that
+things are going to start getting busy soon...&lt;/p&gt;</summary></entry><entry><title>Traffic Report</title><link href="http://aosabook.org/blog/2012/10/traffic-report/" rel="alternate"></link><updated>2012-10-04T19:38:00+02:00</updated><author><name>Greg Wilson</name></author><id>tag:aosabook.org,2012-10-04:blog/2012/10/traffic-report/</id><summary type="html">&lt;p&gt;&lt;img alt="Traffic" src="static/traffic.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Now, if only we could tell how much of each page each visitor is
+reading... :-)&lt;/p&gt;</summary></entry><entry><title>POSA Progress Update</title><link href="http://aosabook.org/blog/2012/09/posa-progress-update/" rel="alternate"></link><updated>2012-09-25T23:51:00+02:00</updated><author><name>Tony Arkles</name></author><id>tag:aosabook.org,2012-09-25:blog/2012/09/posa-progress-update/</id><summary type="html">&lt;p&gt;Well, it's been a busy two months since Tavish or I have posted anything
+on here. Things have been progressing nicely though! We've got 21
+authors lined up, and have already gone through 13 proposed outlines.
+I'm extremely excited with the proposed chapters so far! We've got a
+great mixture of low-level nitty-gritty projects and higher level
+applications.&lt;/p&gt;
+&lt;p&gt;Here's a few more examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ilya Grigorik is going to be discussing the insane number of hoops
+    that the Chrome team has jumped through to improve Chrome's network
+    performance&lt;/li&gt;
+&lt;li&gt;Clint Talbert and Joel Maher are going to be recounting the journey
+    of improving Talos, the performance testing framework at Mozilla.&lt;/li&gt;
+&lt;li&gt;Michael Snoyman and Kazu Yamamoto are writing about Warp, their
+    high-performance Haskell-based HTTP engine.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The first drafts of the chapters will (hopefully) start rolling in, and
+we should have a preliminary table of contents ready to go in the next
+month or so.&lt;/p&gt;
+&lt;p&gt;Thanks again to everyone who has responded! Reading through your
+outlines, I'm super excited about the book and the fantastic material
+that's going into it!&lt;/p&gt;
+&lt;p&gt;Cheers,&lt;/p&gt;
+&lt;p&gt;Tony&lt;/p&gt;</summary></entry><entry><title>Dear GitHub, Please Let Us Build Plugins</title><link href="http://aosabook.org/blog/2012/09/dear-github-please-let-us-build-plugins/" rel="alternate"></link><updated>2012-09-23T13:32:00+02:00</updated><author><name>Greg Wilson</name></author><id>tag:aosabook.org,2012-09-23:blog/2012/09/dear-github-please-let-us-build-plugins/</id><summary type="html">&lt;p&gt;Dear GitHub,&lt;/p&gt;
+&lt;p&gt;You provide a wonderful workspace where millions of people can share
+what they make, but there's something you could do to make yourself even
+better. Could you please provide a way for us to create plug
+applications directly into your site the way Facebook does? Thousands of
+really cool software tools are just waiting to be discovered, from code
+analyzers to project history visualizers, and while your APIs already
+let them use your data on their own web sites, people would be much more
+likely to find them and use them if they were nested directly in
+projects' GitHub pages. It wouldn't be much of a technological
+challenge—given the way Facebook's stock has been doing, you could
+probably even persuade one or two of their engineers to come and help
+build it—and it would kickstart the same healthy explosion of
+third-party tools we saw when Eclipse first came on the scene.&lt;/p&gt;
+&lt;p&gt;Thanks very much,&lt;/p&gt;
+&lt;p&gt;Us.&lt;/p&gt;
+&lt;p&gt;p.s. If you like this idea, please tweet the following:&lt;/p&gt;
+&lt;p&gt;
+    Dear @github, please let us build plugins #githubplugins http://www.aosabook.org/blog/2012/09/dear-github/
+
+&lt;/p&gt;</summary></entry><entry><title>The Architecture of Open Source Applications, Volume II now available in epub</title><link href="http://aosabook.org/blog/2012/09/the-architecture-of-open-source-applications-volume-ii-now-available-in-epub/" rel="alternate"></link><updated>2012-09-21T22:27:00+02:00</updated><author><name>Tavish Armstrong</name></author><id>tag:aosabook.org,2012-09-21:blog/2012/09/the-architecture-of-open-source-applications-volume-ii-now-available-in-epub/</id><summary type="html">&lt;p&gt;We're happy to announce that Volume II of The Architecture of Open
+Source Applications is &lt;a href="http://www.lulu.com/shop/amy-brown-and-greg-wilson/the-architecture-of-open-source-applications-volume-ii-structure-scale-and-a-few-more-fearless-hacks/ebook/product-20402674.html"&gt;now available in ePub format&lt;/a&gt;. As always,
+royalties go to Amnesty International. Happy reading!&lt;/p&gt;</summary></entry><entry><title>John Hunter: 1968-2012</title><link href="http://aosabook.org/blog/2012/08/john-hunter-1968-2012/" rel="alternate"></link><updated>2012-08-30T11:20:00+02:00</updated><author><name>Greg Wilson</name></author><id>tag:aosabook.org,2012-08-30:blog/2012/08/john-hunter-1968-2012/</id><summary type="html">&lt;p&gt;John Hunter, the creator of &lt;a href="http://matplotlib.sourceforge.net/"&gt;matplotlib&lt;/a&gt; and a contributor to Volume 2
+of this series, passed away on August 28 as a result of complications
+arising from treatment for cancer. A &lt;a href="http://numfocus.org/johnhunter/"&gt;memorial fund&lt;/a&gt; has been set up
+to help with his three children's education; please give generously.&lt;/p&gt;</summary></entry><entry><title>A Taste of The Performance of Open Source Applications</title><link href="http://aosabook.org/blog/2012/07/a-taste-of-the-performance-of-open-source-applications/" rel="alternate"></link><updated>2012-07-21T01:02:00+02:00</updated><author><name>Tavish Armstrong</name></author><id>tag:aosabook.org,2012-07-21:blog/2012/07/a-taste-of-the-performance-of-open-source-applications/</id><summary type="html">&lt;p&gt;A few weeks ago Greg &lt;a href="http://www.aosabook.org/blog/2012/06/the-performance-of-open-source-applications/"&gt;posted&lt;/a&gt; about the next book we're doing: &lt;em&gt;The
+Performance of Open Source Applications&lt;/em&gt;. Well, we don't have a book
+yet, but we've made some progress. Earlier this week we had our 15th
+"yes" from an author, which puts us close to the chapter counts of
+&lt;a href="http://aosabook.org"&gt;AOSA&lt;/a&gt;. We're excited about that and we hope you are too. Here are a
+couple of the chapters we're planning:&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Jessica McKellar on Twisted &lt;a href="http://www.aosabook.org/en/twisted.html"&gt;again&lt;/a&gt;, getting into the details of
+    asynchronous I/O.&lt;/li&gt;
+&lt;li&gt;Audrey Tang on profiling and optimizing &lt;a href="http://www.ethercalc.org/"&gt;Ethercalc&lt;/a&gt;, a Google
+    Docs-esque spreadsheet application written in node.js.&lt;/li&gt;
+&lt;li&gt;Kyle Huey on Mozilla's &lt;a href="https://wiki.mozilla.org/Performance/MemShrink"&gt;Memshrink&lt;/a&gt; project, which aims to make
+    Firefox faster and "slimmer".&lt;/li&gt;
+&lt;li&gt;Rosangela Canino-Koning and Eric McDonald on processing terabytes of
+    data in the &lt;a href="https://github.com/brigranger/Kmer"&gt;Khmer project&lt;/a&gt;, which is a "library and toolkit for
+    doing k-mer-based dataset analysis and transformations".&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Remember, if you want to see your favourite Open Source Application
+discussed in the new book, we're accepting contributions. If you're
+interested, please get in touch at &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#112;&amp;#111;&amp;#115;&amp;#97;&amp;#98;&amp;#111;&amp;#111;&amp;#107;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;"&gt;&amp;#112;&amp;#111;&amp;#115;&amp;#97;&amp;#98;&amp;#111;&amp;#111;&amp;#107;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;. If you don't
+want to write a chapter yourself, why not send someone our way?&lt;/p&gt;
+&lt;/p&gt;</summary></entry><entry><title>The Performance of Open Source Applications</title><link href="http://aosabook.org/blog/2012/06/the-performance-of-open-source-applications/" rel="alternate"></link><updated>2012-06-27T13:46:00+02:00</updated><author><name>Greg Wilson</name></author><id>tag:aosabook.org,2012-06-27:blog/2012/06/the-performance-of-open-source-applications/</id><summary type="html">&lt;p&gt;We are pleased to announce that we are starting work on a third book in
+this series, which will be titled &lt;em&gt;The Performance of Open Source
+Applications&lt;/em&gt;. Each chapter will discuss a performance issue in a real
+open source system—it could be an over-the-shoulder view of how a
+performance problem was fixed, a discussion of how design decisions
+affected performance in a particular application, or something else
+along those lines. Each entry will be 12-15 pages long, and we hope to
+have first drafts by the end of October so that we can publish the book
+in Spring 2013. As with AOSA, royalties will go to Amnesty International
+and the book will be available for free online under a Creative Commons
+license. If you are interested in participating, please contact us at
+&lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#112;&amp;#111;&amp;#115;&amp;#97;&amp;#98;&amp;#111;&amp;#111;&amp;#107;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;"&gt;&amp;#112;&amp;#111;&amp;#115;&amp;#97;&amp;#98;&amp;#111;&amp;#111;&amp;#107;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Why performance rather than architecture? Because it's something that
+every programmer has to deal with eventually, but which is usually left
+out of their education. The last general book on making programs fast
+that we know of was Jon Louis Bentley's &lt;em&gt;&lt;a href="http://www.amazon.com/Writing-Efficient-Programs-Prentice-Hall-Software/dp/0139702512/"&gt;Writing Efficient
+Programs&lt;/a&gt;&lt;/em&gt;, which was published thirty years ago. There have been lots
+of more specialized books since (we're particularly fond of Steve
+Souders' &lt;em&gt;&lt;a href="http://www.amazon.com/High-Performance-Web-Sites-Essential/dp/0596529309/"&gt;High Performance Web Sites&lt;/a&gt;&lt;/em&gt; and &lt;em&gt;&lt;a href="http://www.amazon.com/Even-Faster-Web-Sites-Performance/dp/0596522304/"&gt;Even Faster Web
+Sites&lt;/a&gt;&lt;/em&gt;, and of John Lakos's &lt;em&gt;&lt;a href="http://www.amazon.com/Large-Scale-Software-Design-John-Lakos/dp/0201633620/"&gt;Large-Scale C++ Software Design&lt;/a&gt;&lt;/em&gt;),
+but we think the time is right for something that touches on everything
+from squeezing the last few cycles out of every precious milliwat in an
+embedded sensor to maximizing throughput of large-scale e-commerce
+applications. We hope you'll think so too, and we look forward to
+hearing from you.&lt;/p&gt;</summary></entry><entry><title>LaTeX to Lulu</title><link href="http://aosabook.org/blog/2012/06/latex-to-lulu/" rel="alternate"></link><updated>2012-06-08T16:03:00+02:00</updated><author><name>Greg Wilson</name></author><id>tag:aosabook.org,2012-06-08:blog/2012/06/latex-to-lulu/</id><summary type="html">&lt;p&gt;Amy Brown, our indefatigable editor, has posted a series of articles on
+her blog about what's involved in going from LaTeX to a published book
+on Lulu. We think this is a great alternative to traditional (read:
+expensive and restricted) academic publishing, and would welcome other
+tips and tricks.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="http://amyrhoda.wordpress.com/2012/05/25/latex-to-lulu-the-making-of-aosa-geometry-and-headers-and-footers/"&gt;Headers and Footers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://amyrhoda.wordpress.com/2012/05/28/latex-to-lulu-the-making-of-aosa-fonts-and-captions/"&gt;Fonts and Captions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://amyrhoda.wordpress.com/2012/05/30/latex-to-lulu-the-making-of-aosa-table-of-contents-and-chapter-titles/"&gt;Table of Contents and Chapter Title Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://amyrhoda.wordpress.com/2012/06/01/latex-to-lulu-the-making-of-aosa-custom-commands-and-environments/"&gt;Custom Commands and Environments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://amyrhoda.wordpress.com/2012/06/04/latex-to-lulu-the-making-of-aosa-other-useful-packages-and-settings/"&gt;Other Useful Packages and Settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://amyrhoda.wordpress.com/2012/06/07/latex-to-lulu-the-making-of-aosa-pulling-it-all-together/"&gt;Pulling It All Together&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://amyrhoda.wordpress.com/2012/06/12/making-aosa-tools/"&gt;Making AOSA: Tools&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;</summary></entry></feed>
